@@ -16,7 +16,7 @@ public class RestAssured1 {
     {
         reqSpec = new RequestSpecBuilder()
                 .addHeader("Content-Type","application/json")
-                .addHeader("Authorization","token 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")
+                .addHeader("Authorization","token")
                 .setBaseUri("https://api.github.com")
                 .build();
     }
